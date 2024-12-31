@@ -1,0 +1,3 @@
+# PHP: Unexpected Array Modification via Pass by Reference
+
+This repository demonstrates a subtle bug in PHP related to pass-by-reference in functions and how it impacts array modification.  The `increment_array` function is designed to increment each value in an array, however, due to the nature of PHP's reference passing, the function results in an unexpected output that differs from the expected modification of the array elements.
